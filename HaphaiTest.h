@@ -78,7 +78,7 @@ namespace HaphaiTest
 
 		std::cout << std::endl;
 		std::cout << "Tested " << __FILE__ << "." << std::endl;
-		std::cout << "Passed " << passedTest << " of " << size() << endl;
+		std::cout << "Passed " << passedTest << " of " << size() << std::endl;
 	}
 }
 

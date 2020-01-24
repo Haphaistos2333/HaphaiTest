@@ -5,13 +5,55 @@
       <config projectName="HaphaiTest" targetName="HaphaiTest" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug-Cygwin" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Cygwin" GENERATION_OPTIONS="-D CMAKE_CXX_COMPILER=/cygdrive/d/Program/cygwin/bin/clang++ -D CMAKE_C_COMPILER=/cygdrive/d/Program/cygwin/bin/clang" />
+      <configuration PROFILE_NAME="Release-Remote Host" CONFIG_NAME="Release" TOOLCHAIN_NAME="Remote Host" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78ae58cc-c2b3-4d1e-918d-ff97662dc98a" name="Default Changelist" comment="" />
+    <list default="true" id="566a2dbe-324f-4192-8970-8121f08f1de6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HaphaiTest.h" beforeDir="false" afterPath="$PROJECT_DIR$/HaphaiTest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HaphaiTest.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HaphaiTest.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HaphaiTest.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HaphaiTest.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HaphaiTest.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HaphaiTest.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HaphaiTest.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HaphaiTest.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HaphaiTest.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HaphaiTest.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HaphaiTest.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HaphaiTest.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HaphaiTest.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HaphaiTest.dir/test.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/HaphaiTest.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/HaphaiTest.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +62,17 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="ProjectId" id="1V3ay0tfxUEdtM1Ay0rot5an0Oe" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-Cygwin" />
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Cooiut &lt;zhaobochen1999@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="ProjectId" id="1Wp256TfCPZAjhvPP89bJqSRRFV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,23 +80,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/Univ/Ugrad/UCI/2019 Fall/ICS46/Labs/program5" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\C++\HaphaiTest" />
-    </key>
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager">
-    <configuration name="HaphaiTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HaphaiTest" TARGET_NAME="HaphaiTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HaphaiTest" RUN_TARGET_NAME="HaphaiTest">
+    <configuration name="HaphaiTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HaphaiTest" TARGET_NAME="HaphaiTest" CONFIG_NAME="Debug-Cygwin" RUN_TARGET_PROJECT_NAME="HaphaiTest" RUN_TARGET_NAME="HaphaiTest">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -68,82 +108,46 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="78ae58cc-c2b3-4d1e-918d-ff97662dc98a" name="Default Changelist" comment="" />
-      <created>1576484484293</created>
+      <changelist id="566a2dbe-324f-4192-8970-8121f08f1de6" name="Default Changelist" comment="" />
+      <created>1579832028993</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576484484293</updated>
-      <workItem from="1576484491664" duration="3195000" />
-      <workItem from="1576815866904" duration="4751000" />
-      <workItem from="1576825105619" duration="1711000" />
-      <workItem from="1576828664457" duration="4875000" />
-      <workItem from="1576914470881" duration="29000" />
+      <updated>1579832028993</updated>
+      <workItem from="1579832036172" duration="542000" />
     </task>
+    <task id="LOCAL-00001" summary="Fix and optimize import;&#10;reformat code;&#10;add .gitignore.">
+      <created>1579832286136</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579832286136</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Fix and optimize import;&#10;reformat code;&#10;add .gitignore." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix and optimize import;&#10;reformat code;&#10;add .gitignore." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576484588358">
-      <screen x="0" y="0" width="1920" height="999" />
+    <state x="431" y="82" key="CommitChangelistDialog2" timestamp="1579832621380">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576484588358" />
-    <state x="740" y="256" key="FileChooserDialogImpl" timestamp="1576827619154">
-      <screen x="0" y="0" width="1920" height="999" />
+    <state x="431" y="82" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1579832621380" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1579832291065">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="256" key="FileChooserDialogImpl/0.0.1920.999@0.0.1920.999" timestamp="1576827619154" />
-    <state width="1921" height="987" key="GridCell.Tab.0.bottom" timestamp="1576835307992">
-      <screen x="0" y="0" width="1920" height="999" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1579832291065" />
+    <state x="640" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1579832052933">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1879" height="282" key="GridCell.Tab.0.bottom/0.0.1920.999/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1576820539218" />
-    <state width="1921" height="987" key="GridCell.Tab.0.bottom/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576835307992" />
-    <state width="1879" height="268" key="GridCell.Tab.0.bottom/0.0.1920.999@0.0.1920.999" timestamp="1576832634140" />
-    <state width="1921" height="987" key="GridCell.Tab.0.center" timestamp="1576835307992">
-      <screen x="0" y="0" width="1920" height="999" />
-    </state>
-    <state width="1879" height="282" key="GridCell.Tab.0.center/0.0.1920.999/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1576820539218" />
-    <state width="1921" height="987" key="GridCell.Tab.0.center/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576835307992" />
-    <state width="1879" height="268" key="GridCell.Tab.0.center/0.0.1920.999@0.0.1920.999" timestamp="1576832634140" />
-    <state width="1921" height="987" key="GridCell.Tab.0.left" timestamp="1576835307992">
-      <screen x="0" y="0" width="1920" height="999" />
-    </state>
-    <state width="1879" height="282" key="GridCell.Tab.0.left/0.0.1920.999/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1576820539218" />
-    <state width="1921" height="987" key="GridCell.Tab.0.left/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576835307992" />
-    <state width="1879" height="268" key="GridCell.Tab.0.left/0.0.1920.999@0.0.1920.999" timestamp="1576832634140" />
-    <state width="1921" height="987" key="GridCell.Tab.0.right" timestamp="1576835307992">
-      <screen x="0" y="0" width="1920" height="999" />
-    </state>
-    <state width="1879" height="282" key="GridCell.Tab.0.right/0.0.1920.999/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1576820539218" />
-    <state width="1921" height="987" key="GridCell.Tab.0.right/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576835307992" />
-    <state width="1879" height="268" key="GridCell.Tab.0.right/0.0.1920.999@0.0.1920.999" timestamp="1576832634140" />
-    <state width="1879" height="332" key="GridCell.Tab.1.bottom" timestamp="1576542744666">
-      <screen x="0" y="0" width="1920" height="999" />
-    </state>
-    <state width="1879" height="332" key="GridCell.Tab.1.bottom/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576542744666" />
-    <state width="1879" height="332" key="GridCell.Tab.1.center" timestamp="1576542744666">
-      <screen x="0" y="0" width="1920" height="999" />
-    </state>
-    <state width="1879" height="332" key="GridCell.Tab.1.center/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576542744666" />
-    <state width="1879" height="332" key="GridCell.Tab.1.left" timestamp="1576542744666">
-      <screen x="0" y="0" width="1920" height="999" />
-    </state>
-    <state width="1879" height="332" key="GridCell.Tab.1.left/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576542744666" />
-    <state width="1879" height="332" key="GridCell.Tab.1.right" timestamp="1576542744666">
-      <screen x="0" y="0" width="1920" height="999" />
-    </state>
-    <state width="1879" height="332" key="GridCell.Tab.1.right/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576542744666" />
-    <state x="461" y="141" key="SettingsEditor" timestamp="1576485214140">
-      <screen x="0" y="0" width="1920" height="999" />
-    </state>
-    <state x="461" y="141" key="SettingsEditor/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576485214140" />
-    <state x="645" y="323" key="com.intellij.ide.util.TipDialog" timestamp="1576914483359">
-      <screen x="0" y="0" width="1920" height="999" />
-    </state>
-    <state x="645" y="323" key="com.intellij.ide.util.TipDialog/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576914483359" />
-    <state x="-1268" y="191" width="661" height="762" key="find.popup" timestamp="1576819096914">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1268" y="191" width="661" height="762" key="find.popup/0.0.1920.999/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1576819096914" />
+    <state x="640" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1579832052933" />
   </component>
 </project>
