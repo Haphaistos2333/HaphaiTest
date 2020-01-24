@@ -6,65 +6,80 @@
 #include <iostream>
 #include <cassert>
 #include <exception>
+#include <stdexcept>
 
-namespace HaphaiTest {
+namespace HaphaiTest
+{
 
-    std::vector<std::string> nameList;
-    std::vector<void (*)()> codeList;
+	std::vector<std::string> nameList;
+	std::vector<void (*)()> codeList;
 
-    void checkValid() {
-        assert(nameList.size() == codeList.size()); // The two sizes should always be same.
-    }
+	void checkValid()
+	{
+		assert(nameList.size() == codeList.size()); // The two sizes should always be same.
+	}
 
-    void regTestCase(const std::string &name, void(*code)()) {
-        checkValid();
-        nameList.push_back(name);
-        codeList.push_back(code);
-    }
+	void regTestCase(const std::string& name, void(* code)())
+	{
+		checkValid();
+		nameList.push_back(name);
+		codeList.push_back(code);
+	}
 
-    std::size_t size() {
-        checkValid();
-        return nameList.size();
-    }
+	std::size_t size()
+	{
+		checkValid();
+		return nameList.size();
+	}
 
-    void (*setup)() = nullptr;
+	void (* setup)() = nullptr;
 
-    void (*teardown)() = nullptr;
+	void (* teardown)() = nullptr;
 
-    class FailException : public std::exception {
-    };
+	class FailException : public std::exception
+	{
+	};
 
-    void runTest() {
-        std::cout << "[   Running HaphaiTest     ] " << std::endl;
-        std::cout << "[ Copyright Haphaistos2333 ] " << std::endl;
-        std::cout << std::endl;
+	void runTest()
+	{
+		std::cout << "[   Running HaphaiTest     ] " << std::endl;
+		std::cout << "[ Copyright Haphaistos2333 ] " << std::endl;
+		std::cout << std::endl;
 
-        if (setup) {
-            setup();
-            std::cout << "[ Setup      ] " << std::endl;
-        }
-        int passedTest = 0;
-        for (int i = 0; i < size(); ++i) {
-            try {
-                std::cout << "[ Testing    ] " << nameList[i] << std::endl;
-                codeList[i]();
-                std::cout << "[         Ok ] " << std::endl;
-                ++passedTest;
-            } catch (const FailException &f) {
-                std::cout << "[       Fail ] " << std::endl;
-            } catch (const std::exception &e) {
-                std::cout << "[  Exception ] " << e.what() << std::endl;
-            }
-        }
-        if (teardown) {
-            teardown();
-            std::cout << "[ Teardown   ] " << std::endl;
-        }
+		if (setup)
+		{
+			setup();
+			std::cout << "[ Setup      ] " << std::endl;
+		}
+		int passedTest = 0;
+		for (int i = 0; i < size(); ++i)
+		{
+			try
+			{
+				std::cout << "[ Testing    ] " << nameList[i] << std::endl;
+				codeList[i]();
+				std::cout << "[         Ok ] " << std::endl;
+				++passedTest;
+			}
+			catch (const FailException& f)
+			{
+				std::cout << "[       Fail ] " << std::endl;
+			}
+			catch (const std::exception& e)
+			{
+				std::cout << "[ Exception  ] " << e.what() << std::endl;
+			}
+		}
+		if (teardown)
+		{
+			teardown();
+			std::cout << "[ Teardown   ] " << std::endl;
+		}
 
-        std::cout << std::endl;
-        std::cout << "Tested " << __FILE__ << "." << std::endl;
-        std::cout << "Passed " << passedTest << " of " << size();
-    }
+		std::cout << std::endl;
+		std::cout << "Tested " << __FILE__ << "." << std::endl;
+		std::cout << "Passed " << passedTest << " of " << size() << endl;
+	}
 }
 
 #define TEST(test_name) \

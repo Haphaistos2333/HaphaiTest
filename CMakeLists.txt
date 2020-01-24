@@ -3,4 +3,10 @@ project(HaphaiTest)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(HaphaiTest main.cpp test.cpp)
+include_directories(.)
+
+add_executable(HaphaiTest
+        HaphaiTest.h
+        main.cpp
+        test.cpp
+        test.h)
