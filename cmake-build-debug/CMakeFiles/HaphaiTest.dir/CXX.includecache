@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/C++/HaphaiTest/HaphaiTest.h
+vector
+-
+string
+-
+iostream
+-
+cassert
+-
+exception
+-
+
+G:/C++/HaphaiTest/main.cpp
+HaphaiTest.h
+G:/C++/HaphaiTest/HaphaiTest.h
+test.h
+G:/C++/HaphaiTest/test.h
+
+G:/C++/HaphaiTest/test.h
+

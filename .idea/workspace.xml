@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="HaphaiTest" targetName="HaphaiTest" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78ae58cc-c2b3-4d1e-918d-ff97662dc98a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1V3ay0tfxUEdtM1Ay0rot5an0Oe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/Univ/Ugrad/UCI/2019 Fall/ICS46/Labs/program5" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\C++\HaphaiTest" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HaphaiTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HaphaiTest" TARGET_NAME="HaphaiTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HaphaiTest" RUN_TARGET_NAME="HaphaiTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78ae58cc-c2b3-4d1e-918d-ff97662dc98a" name="Default Changelist" comment="" />
+      <created>1576484484293</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576484484293</updated>
+      <workItem from="1576484491664" duration="3195000" />
+      <workItem from="1576815866904" duration="4751000" />
+      <workItem from="1576825105619" duration="1711000" />
+      <workItem from="1576828664457" duration="4875000" />
+      <workItem from="1576914470881" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576484588358">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state x="414" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576484588358" />
+    <state x="740" y="256" key="FileChooserDialogImpl" timestamp="1576827619154">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state x="740" y="256" key="FileChooserDialogImpl/0.0.1920.999@0.0.1920.999" timestamp="1576827619154" />
+    <state width="1921" height="987" key="GridCell.Tab.0.bottom" timestamp="1576835307992">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state width="1879" height="282" key="GridCell.Tab.0.bottom/0.0.1920.999/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1576820539218" />
+    <state width="1921" height="987" key="GridCell.Tab.0.bottom/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576835307992" />
+    <state width="1879" height="268" key="GridCell.Tab.0.bottom/0.0.1920.999@0.0.1920.999" timestamp="1576832634140" />
+    <state width="1921" height="987" key="GridCell.Tab.0.center" timestamp="1576835307992">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state width="1879" height="282" key="GridCell.Tab.0.center/0.0.1920.999/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1576820539218" />
+    <state width="1921" height="987" key="GridCell.Tab.0.center/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576835307992" />
+    <state width="1879" height="268" key="GridCell.Tab.0.center/0.0.1920.999@0.0.1920.999" timestamp="1576832634140" />
+    <state width="1921" height="987" key="GridCell.Tab.0.left" timestamp="1576835307992">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state width="1879" height="282" key="GridCell.Tab.0.left/0.0.1920.999/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1576820539218" />
+    <state width="1921" height="987" key="GridCell.Tab.0.left/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576835307992" />
+    <state width="1879" height="268" key="GridCell.Tab.0.left/0.0.1920.999@0.0.1920.999" timestamp="1576832634140" />
+    <state width="1921" height="987" key="GridCell.Tab.0.right" timestamp="1576835307992">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state width="1879" height="282" key="GridCell.Tab.0.right/0.0.1920.999/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1576820539218" />
+    <state width="1921" height="987" key="GridCell.Tab.0.right/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576835307992" />
+    <state width="1879" height="268" key="GridCell.Tab.0.right/0.0.1920.999@0.0.1920.999" timestamp="1576832634140" />
+    <state width="1879" height="332" key="GridCell.Tab.1.bottom" timestamp="1576542744666">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state width="1879" height="332" key="GridCell.Tab.1.bottom/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576542744666" />
+    <state width="1879" height="332" key="GridCell.Tab.1.center" timestamp="1576542744666">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state width="1879" height="332" key="GridCell.Tab.1.center/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576542744666" />
+    <state width="1879" height="332" key="GridCell.Tab.1.left" timestamp="1576542744666">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state width="1879" height="332" key="GridCell.Tab.1.left/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576542744666" />
+    <state width="1879" height="332" key="GridCell.Tab.1.right" timestamp="1576542744666">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state width="1879" height="332" key="GridCell.Tab.1.right/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576542744666" />
+    <state x="461" y="141" key="SettingsEditor" timestamp="1576485214140">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state x="461" y="141" key="SettingsEditor/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576485214140" />
+    <state x="645" y="323" key="com.intellij.ide.util.TipDialog" timestamp="1576914483359">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state x="645" y="323" key="com.intellij.ide.util.TipDialog/0.0.1920.999/-1920.0.1920.1040@0.0.1920.999" timestamp="1576914483359" />
+    <state x="-1268" y="191" width="661" height="762" key="find.popup" timestamp="1576819096914">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1268" y="191" width="661" height="762" key="find.popup/0.0.1920.999/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1576819096914" />
+  </component>
+</project>
